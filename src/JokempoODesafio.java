@@ -52,10 +52,7 @@ public class JokempoODesafio {
 			
 			
 			
-			
-		
-		
-		if ((jogador == 1 && maquina == 3) || (jogador ==2 && maquina==1) || (jogador == 3 && maquina ==2)) {
+			if ((jogador == 1 && maquina == 3) || (jogador ==2 && maquina==1) || (jogador == 3 && maquina ==2)) {
 			System.out.println("Você ganhou!!!!");
 			
 		} else if ((jogador == 3 && maquina == 1) || (jogador == 1 && maquina == 2) || (jogador ==2 && maquina == 1)){
@@ -69,17 +66,6 @@ public class JokempoODesafio {
 		
 	
 		
-	
-		
-		
-
-	
-	
-	
-	
-	
-	
-	
 	}
 
 }
