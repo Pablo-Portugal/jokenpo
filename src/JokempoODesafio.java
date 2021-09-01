@@ -18,36 +18,36 @@ public class JokempoODesafio {
 		String Tesoura;
 		
 		System.out.println("***********");
-		System.out.println("Joquempô");
+		System.out.println("Jokempo");
 		System.out.println("***********");
 		System.out.println();
-		System.out.println("1- Pedra");
-		System.out.println("2- Papel");
-		System.out.println("3- Tesoura");
+		System.out.println("[1]- Pedra");
+		System.out.println("[2]- Papel");
+		System.out.println("[3]- Tesoura");
 		System.out.println();
-		System.out.println("Qual a sua escolha: 1,2 ou 3? ");
+		System.out.print("Qual a sua escolha:(1,2 ou 3)? ");
 		jogador = leitor.nextInt();
 		
 		if (maquina == 1 ) {
 			
-			System.out.println("A maquina escolheu pedra");
+			System.out.println("A maquina escolheu : Pedra");
 		} else if(maquina ==2) {
 			
-			System.out.println("A maquina escolheu papel ");
+			System.out.println("A maquina escolheu : Papel ");
 		} else {
 			
-			System.out.println("A maquina escolheu tesoura");
+			System.out.println("A maquina escolheu : Tesoura");
 		}
 
 			if (jogador  == 1 ) {
 			
-			System.out.println("Você escolheu pedra");
+			System.out.println("Você escolheu : Pedra");
 		} else if(jogador == 2) {
 			
-			System.out.println("Você escolheu papel ");
+			System.out.println("Você escolheu : Papel ");
 		} else {
 			
-			System.out.println("Você escolheu tesoura");
+			System.out.println("Você escolheu: Tesoura");
 		}
 			
 			
